@@ -1,0 +1,35 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+v_and
+!s110 1755925681
+!i10b 1
+!s100 9cbfLh<=3Bc?4THcGQHnS3
+!s11b Dg1SIo80bB@j0V0VzS_@n1
+IOnPCAQWBdXZ0g5`Ro@cdo0
+VDg1SIo80bB@j0V0VzS_@n1
+dC:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Actividad_02
+w1755925658
+8C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Actividad_02/siete_compuertas_logicas.v
+FC:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Actividad_02/siete_compuertas_logicas.v
+!i122 4
+L0 4 24
+OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1755925681.000000
+!s107 C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Actividad_02/siete_compuertas_logicas.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Actividad_02/siete_compuertas_logicas.v|
+!i113 1
+o-work work
+tCvgOpt 0
+n@_and
