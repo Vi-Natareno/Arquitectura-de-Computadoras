@@ -1,0 +1,59 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+vpre_ALU
+Z0 !s110 1756421040
+!i10b 1
+!s100 B003kWdnb9jS98MP47E_a2
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I5Z7a[7CGFcG<ng9a7bXS:2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Practica_03
+w1756417724
+8C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Practica_03/Pre_ALU.v
+FC:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Practica_03/Pre_ALU.v
+!i122 21
+L0 3 16
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1756421040.000000
+!s107 C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Practica_03/Pre_ALU.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Practica_03/Pre_ALU.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+npre_@a@l@u
+vpre_ALU_TB
+R0
+!i10b 1
+!s100 G;RoYhe1k5HKeJ_L5]0?F3
+R1
+I7]iKGi`SNiLQ]zzQY^]]T1
+R2
+R3
+w1756421026
+8C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Practica_03/Pre_ALU_TB.v
+FC:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Practica_03/Pre_ALU_TB.v
+!i122 22
+L0 3 47
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Practica_03/Pre_ALU_TB.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Practica_03/Pre_ALU_TB.v|
+!i113 1
+R6
+R7
+npre_@a@l@u_@t@b

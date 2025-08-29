@@ -1,0 +1,231 @@
+# Compile of Pre_ALU.v failed with 1 errors.
+# Compile of Pre_ALU.v failed with 5 errors.
+# Compile of Pre_ALU.v failed with 1 errors.
+# Compile of Pre_ALU.v failed with 1 errors.
+# Compile of Pre_ALU.v failed with 1 errors.
+# Compile of Pre_ALU.v failed with 1 errors.
+# Compile of Pre_ALU.v failed with 1 errors.
+# Compile of Pre_ALU.v failed with 1 errors.
+# Compile of Pre_ALU.v failed with 1 errors.
+# Compile of Pre_ALU.v failed with 2 errors.
+# Compile of Pre_ALU.v failed with 1 errors.
+# Compile of Pre_ALU.v was successful.
+vsim work.pre_ALU
+# vsim work.pre_ALU 
+# Start time: 13:55:33 on Aug 28,2025
+# Loading work.pre_ALU
+add wave -position end  sim:/pre_ALU/A
+add wave -position end  sim:/pre_ALU/B
+add wave -position end  sim:/pre_ALU/sel
+add wave -position end  sim:/pre_ALU/C
+force -freeze sim:/pre_ALU/A 0001 0
+force -freeze sim:/pre_ALU/B 0001 0
+force -freeze sim:/pre_ALU/sel 0 0
+run
+force -freeze sim:/pre_ALU/sel 1 0
+run
+force -freeze sim:/pre_ALU/A 0111 0
+force -freeze sim:/pre_ALU/B 0011 0
+force -freeze sim:/pre_ALU/sel 0 0
+run
+force -freeze sim:/pre_ALU/sel 1 0
+run
+force -freeze sim:/pre_ALU/A 0101 0
+force -freeze sim:/pre_ALU/B 0111 0
+force -freeze sim:/pre_ALU/sel St10 0
+# Invalid binary digit: S.
+# ** UI-Msg: (vsim-4011) Invalid force value: St10 0.
+# 
+run
+force -freeze sim:/pre_ALU/sel 0 0
+run
+force -freeze sim:/pre_ALU/sel 1 0
+run
+# Compile of Pre_ALU.v was successful.
+# Compile of Pre_ALU_TB.v failed with 2 errors.
+# 2 compiles, 1 failed with 2 errors.
+quit -sim
+# End time: 15:32:36 on Aug 28,2025, Elapsed time: 1:37:03
+# Errors: 0, Warnings: 18
+# Compile of Pre_ALU.v was successful.
+# Compile of Pre_ALU_TB.v failed with 2 errors.
+# 2 compiles, 1 failed with 2 errors.
+# Compile of Pre_ALU.v was successful.
+# Compile of Pre_ALU_TB.v failed with 2 errors.
+# 2 compiles, 1 failed with 2 errors.
+# Compile of Pre_ALU_TB.v failed with 3 errors.
+# Compile of Pre_ALU_TB.v failed with 3 errors.
+# Compile of Pre_ALU_TB.v failed with 2 errors.
+# Compile of Pre_ALU_TB.v failed with 8 errors.
+# Compile of Pre_ALU_TB.v was successful.
+# Compile of Pre_ALU_TB.v failed with 1 errors.
+# Compile of Pre_ALU_TB.v failed with 1 errors.
+# Compile of Pre_ALU_TB.v failed with 1 errors.
+# Compile of Pre_ALU_TB.v was successful.
+# Compile of Pre_ALU_TB.v was successful.
+# Compile of Pre_ALU_TB.v was successful.
+# Compile of Pre_ALU.v was successful.
+vsim work.pre_ALU_TB
+# vsim work.pre_ALU_TB 
+# Start time: 16:01:20 on Aug 28,2025
+# Loading work.pre_ALU_TB
+# Loading work.pre_ALU
+add wave -position end  sim:/pre_ALU_TB/A_tb
+add wave -position end  sim:/pre_ALU_TB/B_tb
+add wave -position end  sim:/pre_ALU_TB/sel_tb
+add wave -position end  sim:/pre_ALU_TB/C_tb
+run -all
+run
+run
+# Compile of Pre_ALU.v was successful.
+# Compile of Pre_ALU_TB.v was successful.
+# 2 compiles, 0 failed with no errors.
+quit -sim
+# End time: 16:02:33 on Aug 28,2025, Elapsed time: 0:01:13
+# Errors: 0, Warnings: 16
+vsim work.pre_ALU_TB
+# vsim work.pre_ALU_TB 
+# Start time: 16:02:35 on Aug 28,2025
+# Loading work.pre_ALU_TB
+# Loading work.pre_ALU
+add wave -position end  sim:/pre_ALU_TB/A_tb
+add wave -position end  sim:/pre_ALU_TB/B_tb
+add wave -position end  sim:/pre_ALU_TB/sel_tb
+add wave -position end  sim:/pre_ALU_TB/C_tb
+run -all
+run
+quit -sim
+# End time: 16:05:51 on Aug 28,2025, Elapsed time: 0:03:16
+# Errors: 0, Warnings: 1
+# Compile of Pre_ALU.v was successful.
+# Compile of Pre_ALU_TB.v failed with 1 errors.
+# 2 compiles, 1 failed with 1 error.
+# Compile of Pre_ALU.v was successful.
+# Compile of Pre_ALU_TB.v failed with 1 errors.
+# 2 compiles, 1 failed with 1 error.
+# Compile of Pre_ALU.v was successful.
+# Compile of Pre_ALU_TB.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.pre_ALU_TB
+# vsim work.pre_ALU_TB 
+# Start time: 16:06:25 on Aug 28,2025
+# Loading work.pre_ALU_TB
+# Loading work.pre_ALU
+run -all
+add wave -position end  sim:/pre_ALU_TB/A_tb
+add wave -position end  sim:/pre_ALU_TB/B_tb
+add wave -position end  sim:/pre_ALU_TB/sel_tb
+add wave -position end  sim:/pre_ALU_TB/C_tb
+run -all
+run
+run
+run
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run
+# GetModuleFileName: No se puede encontrar el módulo especificado.
+# 
+# 
+run
+run
+# Compile of Pre_ALU.v was successful.
+# Compile of Pre_ALU_TB.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.pre_ALU_TB
+# End time: 16:11:54 on Aug 28,2025, Elapsed time: 0:05:29
+# Errors: 0, Warnings: 2
+# vsim work.pre_ALU_TB 
+# Start time: 16:11:54 on Aug 28,2025
+# Loading work.pre_ALU_TB
+# Loading work.pre_ALU
+add wave -position end  sim:/pre_ALU_TB/A_tb
+add wave -position end  sim:/pre_ALU_TB/B_tb
+add wave -position end  sim:/pre_ALU_TB/sel_tb
+add wave -position end  sim:/pre_ALU_TB/C_tb
+run
+run
+run
+run
+# Compile of Pre_ALU.v was successful.
+# Compile of Pre_ALU_TB.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.pre_ALU_TB
+# End time: 16:30:11 on Aug 28,2025, Elapsed time: 0:18:17
+# Errors: 0, Warnings: 2
+# vsim work.pre_ALU_TB 
+# Start time: 16:30:11 on Aug 28,2025
+# Loading work.pre_ALU_TB
+# Loading work.pre_ALU
+add wave -position end  sim:/pre_ALU_TB/A_tb
+add wave -position end  sim:/pre_ALU_TB/B_tb
+add wave -position end  sim:/pre_ALU_TB/sel_tb
+add wave -position end  sim:/pre_ALU_TB/C_tb
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart -f
+# Compile of Pre_ALU.v was successful.
+# Compile of Pre_ALU_TB.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.pre_ALU_TB
+# End time: 16:31:46 on Aug 28,2025, Elapsed time: 0:01:35
+# Errors: 0, Warnings: 2
+# vsim work.pre_ALU_TB 
+# Start time: 16:31:46 on Aug 28,2025
+# Loading work.pre_ALU_TB
+# Loading work.pre_ALU
+add wave -position end  sim:/pre_ALU_TB/A_tb
+add wave -position end  sim:/pre_ALU_TB/B_tb
+add wave -position end  sim:/pre_ALU_TB/sel_tb
+add wave -position end  sim:/pre_ALU_TB/C_tb
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of Pre_ALU.v was successful.
+# Compile of Pre_ALU_TB.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.pre_ALU_TB
+# End time: 16:44:08 on Aug 28,2025, Elapsed time: 0:12:22
+# Errors: 0, Warnings: 2
+# vsim work.pre_ALU_TB 
+# Start time: 16:44:08 on Aug 28,2025
+# Loading work.pre_ALU_TB
+# Loading work.pre_ALU
+add wave -position end  sim:/pre_ALU_TB/A_tb
+add wave -position end  sim:/pre_ALU_TB/B_tb
+add wave -position end  sim:/pre_ALU_TB/sel_tb
+add wave -position end  sim:/pre_ALU_TB/C_tb
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run -step
+# Nothing left to do.
+run -step
+# Nothing left to do.
+run -over
+# Nothing left to do.
+run -step
+# Nothing left to do.
+# End time: 16:56:09 on Aug 28,2025, Elapsed time: 0:12:01
+# Errors: 0, Warnings: 1
