@@ -3,15 +3,15 @@
 module pre_ALU_TB ();
 //2.cables, registros, instancias
 reg [3:0]A_tb,B_tb;
-reg sel_tb;
+wire sel_tb;
 wire [3:0]C_tb;
 //3. Instacias
 pre_ALU DUV ( .A(A_tb), .B(B_tb), .sel(sel_tb), .C(C_tb));
 //valores
 initial
 begin
-    A_tb = 4'b001; //1 
-    B_tb = 4'b001; //1
+    A_tb = 4'b0001; 
+    B_tb = 4'b0001;
     sel_tb = 0; //suma -> debe dar 0001 (1) + 0001 (1) = 0010 (2) 
     #100
     sel_tb = 1; //AND -> debe dar 0001 & 0001  = 0001 
