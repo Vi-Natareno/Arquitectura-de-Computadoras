@@ -1,0 +1,15 @@
+{C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Actividad_03/ALU_TB.v} {1 {vlog -work work -stats=none {C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Actividad_03/ALU_TB.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ALU_TB
+
+Top level modules:
+	ALU_TB
+
+} {} {}} {C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Actividad_03/ALU.v} {1 {vlog -work work -stats=none {C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Actividad_03/ALU.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}}

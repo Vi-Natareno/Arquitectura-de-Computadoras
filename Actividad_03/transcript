@@ -1,0 +1,80 @@
+# Compile of ALU.v was successful.
+# Compile of ALU_TB.v failed with 2 errors.
+# 2 compiles, 1 failed with 2 errors.
+# Compile of ALU.v was successful.
+# Compile of ALU_TB.v was successful with warnings.
+# 2 compiles, 0 failed with no errors.
+# Compile of ALU.v was successful.
+# Compile of ALU_TB.v was successful with warnings.
+# 2 compiles, 0 failed with no errors.
+# Compile of ALU.v was successful.
+# Compile of ALU_TB.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of ALU.v was successful.
+# Compile of ALU_TB.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.ALU_TB
+# vsim work.ALU_TB 
+# Start time: 18:19:02 on Sep 09,2025
+# Loading work.ALU_TB
+# Loading work.ALU
+add wave -position end  sim:/ALU_TB/A_tb
+add wave -position end  sim:/ALU_TB/B_tb
+add wave -position end  sim:/ALU_TB/sel_tb
+add wave -position end  sim:/ALU_TB/C_tb
+run -continue
+run -all
+# Compile of ALU.v was successful.
+# Compile of ALU_TB.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.ALU_TB
+# End time: 18:25:22 on Sep 09,2025, Elapsed time: 0:06:20
+# Errors: 0, Warnings: 7
+# vsim work.ALU_TB 
+# Start time: 18:25:22 on Sep 09,2025
+# Loading work.ALU_TB
+# Loading work.ALU
+add wave -position end  sim:/ALU_TB/A_tb
+add wave -position end  sim:/ALU_TB/B_tb
+add wave -position end  sim:/ALU_TB/sel_tb
+add wave -position end  sim:/ALU_TB/C_tb
+run -continue
+run -all
+# Compile of ALU.v was successful.
+# Compile of ALU_TB.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.ALU_TB
+# End time: 19:27:58 on Sep 09,2025, Elapsed time: 1:02:36
+# Errors: 0, Warnings: 2
+# vsim work.ALU_TB 
+# Start time: 19:27:58 on Sep 09,2025
+# Loading work.ALU_TB
+# Loading work.ALU
+add wave -position end  sim:/ALU_TB/A_tb
+add wave -position end  sim:/ALU_TB/B_tb
+add wave -position end  sim:/ALU_TB/sel_tb
+add wave -position end  sim:/ALU_TB/C_tb
+run -continue
+run -all
+# Compile of ALU.v was successful.
+# Compile of ALU_TB.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.ALU_TB
+# End time: 19:34:14 on Sep 09,2025, Elapsed time: 0:06:16
+# Errors: 0, Warnings: 2
+# vsim work.ALU_TB 
+# Start time: 19:34:14 on Sep 09,2025
+# Loading work.ALU_TB
+# Loading work.ALU
+add wave -position end  sim:/ALU_TB/A_tb
+add wave -position end  sim:/ALU_TB/B_tb
+add wave -position end  sim:/ALU_TB/sel_tb
+add wave -position end  sim:/ALU_TB/C_tb
+run -continue
+run -all
+add wave -position end  sim:/ALU_TB/A_tb
+add wave -position end  sim:/ALU_TB/B_tb
+add wave -position end  sim:/ALU_TB/sel_tb
+add wave -position end  sim:/ALU_TB/C_tb
+# End time: 20:31:43 on Sep 09,2025, Elapsed time: 0:57:29
+# Errors: 0, Warnings: 1
