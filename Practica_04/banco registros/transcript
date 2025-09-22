@@ -1,0 +1,98 @@
+# Compile of banco_registros.v was successful.
+# Compile of banco_registros_TB.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.banco_registros_TB
+# vsim work.banco_registros_TB 
+# Start time: 17:33:08 on Sep 22,2025
+# Loading work.banco_registros_TB
+# Loading work.banco_registros
+# ** Warning: (vsim-3015) [PCDPC] - Port size (33) does not match connection size (32) for port 'WriteData'. The port definition is at: C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Practica_04/banco registros/banco_registros.v(5).
+#    Time: 0 ns  Iteration: 0  Instance: /banco_registros_TB/DUV File: C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Practica_04/banco registros/banco_registros_TB.v Line: 13
+add wave -position end  sim:/banco_registros_TB/RR1_tb
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: usuario  Hostname: ALFA4-3057  ProcessID: 13860
+#           Attempting to use alternate WLF file "./wlfts8fazx".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlfts8fazx
+add wave -position end  sim:/banco_registros_TB/RR2_tb
+add wave -position end  sim:/banco_registros_TB/WriteReg_tb
+add wave -position end  sim:/banco_registros_TB/WriteData_tb
+add wave -position end  sim:/banco_registros_TB/Regwrite_tb
+add wave -position end  sim:/banco_registros_TB/RD1_tb
+add wave -position end  sim:/banco_registros_TB/RD2_tb
+run
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (33) does not match connection size (32) for port 'WriteData'. The port definition is at: C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Practica_04/banco registros/banco_registros.v(5).
+#    Time: 0 ns  Iteration: 0  Instance: /banco_registros_TB/DUV File: C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Practica_04/banco registros/banco_registros_TB.v Line: 13
+run
+# GetModuleFileName: No se puede encontrar el módulo especificado.
+# 
+# 
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 33 of file "data.txt". (Current address [32], address range [0:31])    : C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Practica_04/banco registros/banco_registros.v(20)
+#    Time: 0 ns  Iteration: 0  Instance: /banco_registros_TB/DUV
+run
+run
+run
+run
+run
+run
+# Compile of banco_registros.v was successful.
+# Compile of banco_registros_TB.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.banco_registros_TB
+# Loading work.banco_registros
+# ** Warning: (vsim-3015) [PCDPC] - Port size (33) does not match connection size (32) for port 'WriteData'. The port definition is at: C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Practica_04/banco registros/banco_registros.v(5).
+#    Time: 0 ns  Iteration: 0  Instance: /banco_registros_TB/DUV File: C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Practica_04/banco registros/banco_registros_TB.v Line: 13
+run
+# GetModuleFileName: No se puede encontrar el módulo especificado.
+# 
+# 
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 33 of file "data.txt". (Current address [32], address range [0:31])    : C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Practica_04/banco registros/banco_registros.v(20)
+#    Time: 0 ns  Iteration: 0  Instance: /banco_registros_TB/DUV
+run
+run
+run
+run
+run
+# Compile of banco_registros.v was successful.
+# Compile of banco_registros_TB.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.banco_registros_TB
+# Loading work.banco_registros
+# ** Warning: (vsim-3015) [PCDPC] - Port size (33) does not match connection size (32) for port 'WriteData'. The port definition is at: C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Practica_04/banco registros/banco_registros.v(5).
+#    Time: 0 ns  Iteration: 0  Instance: /banco_registros_TB/DUV File: C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Practica_04/banco registros/banco_registros_TB.v Line: 13
+run
+# GetModuleFileName: No se puede encontrar el módulo especificado.
+# 
+# 
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 33 of file "data.txt". (Current address [32], address range [0:31])    : C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Practica_04/banco registros/banco_registros.v(20)
+#    Time: 0 ns  Iteration: 0  Instance: /banco_registros_TB/DUV
+run
+run
+run
+run
+# Compile of banco_registros.v was successful.
+# Compile of banco_registros_TB.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.banco_registros_TB
+# Loading work.banco_registros
+# ** Warning: (vsim-3015) [PCDPC] - Port size (33) does not match connection size (32) for port 'WriteData'. The port definition is at: C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Practica_04/banco registros/banco_registros.v(5).
+#    Time: 0 ns  Iteration: 0  Instance: /banco_registros_TB/DUV File: C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Practica_04/banco registros/banco_registros_TB.v Line: 13
+run
+# GetModuleFileName: No se puede encontrar el módulo especificado.
+# 
+# 
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 33 of file "data.txt". (Current address [32], address range [0:31])    : C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Practica_04/banco registros/banco_registros.v(20)
+#    Time: 0 ns  Iteration: 0  Instance: /banco_registros_TB/DUV
+run
+run
+run
+run
+run
