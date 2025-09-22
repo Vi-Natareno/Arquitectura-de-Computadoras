@@ -1,0 +1,25 @@
+# Compile of rom.v was successful.
+# Compile of rom_TB.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.rom_TB
+# vsim work.rom_TB 
+# Start time: 16:02:36 on Sep 21,2025
+# Loading work.rom_TB
+# Loading work.rom
+add wave -position end  sim:/rom_TB/direccion_tb
+add wave -position end  sim:/rom_TB/dato_s_tb
+force -freeze sim:/rom_TB/direccion_tb 0 0
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run
+# GetModuleFileName: No se puede encontrar el módulo especificado.
+# 
+# 
+run
+run
+run
+run
+run
+quit -sim
+# End time: 16:14:33 on Sep 21,2025, Elapsed time: 0:11:57
+# Errors: 0, Warnings: 1

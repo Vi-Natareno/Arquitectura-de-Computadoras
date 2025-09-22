@@ -1,0 +1,92 @@
+vsim work.ram_asincrona_TB
+# vsim work.ram_asincrona_TB 
+# Start time: 16:15:06 on Sep 21,2025
+# Loading work.ram_asincrona_TB
+# Loading work.ram_asincrona
+add wave -position end  sim:/ram_asincrona_TB/direccion_tb
+add wave -position end  sim:/ram_asincrona_TB/dato_e_tb
+add wave -position end  sim:/ram_asincrona_TB/EN_tb
+add wave -position end  sim:/ram_asincrona_TB/dato_s_tb
+run
+run
+run
+# Compile of ram_a.v was successful.
+# Compile of ram_a_TB.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ram_asincrona_TB
+# Loading work.ram_asincrona
+run
+# GetModuleFileName: No se puede encontrar el módulo especificado.
+# 
+# 
+run
+run
+run
+run
+# Compile of ram_a.v was successful.
+# Compile of ram_a_TB.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ram_asincrona_TB
+# Loading work.ram_asincrona
+run
+# GetModuleFileName: No se puede encontrar el módulo especificado.
+# 
+# 
+run
+run
+run
+run
+run
+# Compile of ram_a.v was successful.
+# Compile of ram_a_TB.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ram_asincrona_TB
+# Loading work.ram_asincrona
+run
+# GetModuleFileName: No se puede encontrar el módulo especificado.
+# 
+# 
+run
+run
+run
+run
+run
+run
+# Compile of ram_a.v was successful.
+# Compile of ram_a_TB.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ram_asincrona_TB
+# Loading work.ram_asincrona
+run
+# GetModuleFileName: No se puede encontrar el módulo especificado.
+# 
+# 
+run
+run
+run
+run
+run
+run
+restart -f
+run
+# GetModuleFileName: No se puede encontrar el módulo especificado.
+# 
+# 
+run
+run -continue
+run
+run
+run
+run
+run
+quit -sim
+# End time: 16:30:57 on Sep 21,2025, Elapsed time: 0:15:51
+# Errors: 0, Warnings: 1

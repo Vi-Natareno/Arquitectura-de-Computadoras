@@ -1,0 +1,8 @@
+{C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Actividad_04/ram_sincrona/ram_sincrona_TB.v} {1 {vlog -work work -stats=none {C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Actividad_04/ram_sincrona/ram_sincrona_TB.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ram_asincrona_TB
+
+Top level modules:
+	ram_asincrona_TB
+
+} {} {}}

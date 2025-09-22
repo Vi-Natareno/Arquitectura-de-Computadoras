@@ -1,0 +1,359 @@
+# Compile of ram_sincrona.v was successful.
+# Compile of ram_sincrona_TB.v failed with 1 errors.
+# 2 compiles, 1 failed with 1 error.
+# Compile of ram_sincrona.v was successful.
+# Compile of ram_sincrona_TB.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.ram_asincrona_TB
+# vsim work.ram_asincrona_TB 
+# Start time: 16:41:29 on Sep 21,2025
+# Loading work.ram_asincrona_TB
+# ** Error: (vsim-3033) Instantiation of 'ram_asincrona' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /ram_asincrona_TB File: C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Actividad_04/ram_sincrona/ram_sincrona_TB.v Line: 11
+#         Searched libraries:
+#             C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Actividad_04/ram_sincrona/work
+# Error loading design
+# End time: 16:41:29 on Sep 21,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 4
+# Compile of ram_sincrona.v was successful.
+# Compile of ram_sincrona_TB.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.ram_sincrona
+# vsim work.ram_sincrona 
+# Start time: 16:42:25 on Sep 21,2025
+# Loading work.ram_sincrona
+add wave -position end  sim:/ram_sincrona/direccion
+add wave -position end  sim:/ram_sincrona/dato_s
+add wave -position end  sim:/ram_sincrona/dato_e
+add wave -position end  sim:/ram_sincrona/EN
+add wave -position end  sim:/ram_sincrona/clk
+add wave -position end  sim:/ram_sincrona/RAM_S
+run
+run
+# Compile of ram_sincrona.v was successful.
+# Compile of ram_sincrona_TB.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ram_sincrona
+run
+# GetModuleFileName: No se puede encontrar el módulo especificado.
+# 
+# 
+# Compile of ram_sincrona.v was successful.
+# Compile of ram_sincrona_TB.v failed with 1 errors.
+# 2 compiles, 1 failed with 1 error.
+# Compile of ram_sincrona.v was successful.
+# Compile of ram_sincrona_TB.v failed with 1 errors.
+# 2 compiles, 1 failed with 1 error.
+# Compile of ram_sincrona.v was successful.
+# Compile of ram_sincrona_TB.v failed with 1 errors.
+# 2 compiles, 1 failed with 1 error.
+# Compile of ram_sincrona.v was successful.
+# Compile of ram_sincrona_TB.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ram_sincrona
+run
+# GetModuleFileName: No se puede encontrar el módulo especificado.
+# 
+# 
+run
+# Compile of ram_sincrona.v was successful.
+# Compile of ram_sincrona_TB.v failed with 1 errors.
+# 2 compiles, 1 failed with 1 error.
+# Compile of ram_sincrona.v was successful.
+# Compile of ram_sincrona_TB.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ram_sincrona
+run
+# GetModuleFileName: No se puede encontrar el módulo especificado.
+# 
+# 
+run
+run
+run
+run
+run -all
+vsim work.ram_asincrona_TB
+# End time: 16:58:28 on Sep 21,2025, Elapsed time: 0:16:03
+# Errors: 0, Warnings: 1
+# vsim work.ram_asincrona_TB 
+# Start time: 16:58:28 on Sep 21,2025
+# Loading work.ram_asincrona_TB
+# ** Error: (vsim-3033) Instantiation of 'ram_asincrona' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /ram_asincrona_TB File: C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Actividad_04/ram_sincrona/ram_sincrona_TB.v Line: 11
+#         Searched libraries:
+#             C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Actividad_04/ram_sincrona/work
+# Error loading design
+# End time: 16:58:29 on Sep 21,2025, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 1
+vsim work.ram_asincrona_TB
+# vsim work.ram_asincrona_TB 
+# Start time: 16:58:32 on Sep 21,2025
+# Loading work.ram_asincrona_TB
+# ** Error: (vsim-3033) Instantiation of 'ram_asincrona' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /ram_asincrona_TB File: C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Actividad_04/ram_sincrona/ram_sincrona_TB.v Line: 11
+#         Searched libraries:
+#             C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Actividad_04/ram_sincrona/work
+# Error loading design
+# End time: 16:58:32 on Sep 21,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 1
+vsim work.ram_asincrona_TB
+# vsim work.ram_asincrona_TB 
+# Start time: 16:58:50 on Sep 21,2025
+# Loading work.ram_asincrona_TB
+# ** Error: (vsim-3033) Instantiation of 'ram_asincrona' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /ram_asincrona_TB File: C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Actividad_04/ram_sincrona/ram_sincrona_TB.v Line: 11
+#         Searched libraries:
+#             C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Actividad_04/ram_sincrona/work
+# Error loading design
+# End time: 16:58:50 on Sep 21,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 1
+vsim work.ram_asincrona_TB
+# vsim work.ram_asincrona_TB 
+# Start time: 16:59:07 on Sep 21,2025
+# Loading work.ram_asincrona_TB
+# ** Error: (vsim-3033) Instantiation of 'ram_asincrona' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /ram_asincrona_TB File: C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Actividad_04/ram_sincrona/ram_sincrona_TB.v Line: 11
+#         Searched libraries:
+#             C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Actividad_04/ram_sincrona/work
+# Error loading design
+# End time: 16:59:07 on Sep 21,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 1
+vsim work.ram_asincrona_TB
+# vsim work.ram_asincrona_TB 
+# Start time: 16:59:19 on Sep 21,2025
+# Loading work.ram_asincrona_TB
+# ** Error: (vsim-3033) Instantiation of 'ram_asincrona' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /ram_asincrona_TB File: C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Actividad_04/ram_sincrona/ram_sincrona_TB.v Line: 11
+#         Searched libraries:
+#             C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Actividad_04/ram_sincrona/work
+# Error loading design
+# End time: 16:59:20 on Sep 21,2025, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 1
+vsim work.ram_asincrona_TB
+# vsim work.ram_asincrona_TB 
+# Start time: 16:59:30 on Sep 21,2025
+# Loading work.ram_asincrona_TB
+# ** Error: (vsim-3033) Instantiation of 'ram_asincrona' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /ram_asincrona_TB File: C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Actividad_04/ram_sincrona/ram_sincrona_TB.v Line: 11
+#         Searched libraries:
+#             C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Actividad_04/ram_sincrona/work
+# Error loading design
+# End time: 16:59:31 on Sep 21,2025, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 1
+vsim work.ram_asincrona_TB
+# vsim work.ram_asincrona_TB 
+# Start time: 16:59:39 on Sep 21,2025
+# Loading work.ram_asincrona_TB
+# ** Error: (vsim-3033) Instantiation of 'ram_asincrona' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /ram_asincrona_TB File: C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Actividad_04/ram_sincrona/ram_sincrona_TB.v Line: 11
+#         Searched libraries:
+#             C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Actividad_04/ram_sincrona/work
+# Error loading design
+# End time: 16:59:39 on Sep 21,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 1
+# Compile of ram_sincrona.v was successful.
+# Compile of ram_sincrona_TB.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of ram_sincrona.v was successful.
+# Compile of ram_sincrona_TB.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.ram_asincrona_TB
+# vsim work.ram_asincrona_TB 
+# Start time: 17:01:05 on Sep 21,2025
+# Loading work.ram_asincrona_TB
+# Loading work.ram_sincrona
+add wave -position end  sim:/ram_asincrona_TB/direccion_tb
+add wave -position end  sim:/ram_asincrona_TB/dato_e_tb
+add wave -position end  sim:/ram_asincrona_TB/EN_tb
+add wave -position end  sim:/ram_asincrona_TB/clk_tb
+add wave -position end  sim:/ram_asincrona_TB/dato_s_tb
+run
+run
+# Compile of ram_sincrona.v was successful.
+# Compile of ram_sincrona_TB.v failed with 1 errors.
+# 2 compiles, 1 failed with 1 error.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ram_sincrona
+run
+# GetModuleFileName: No se puede encontrar el módulo especificado.
+# 
+# 
+run
+run
+# Compile of ram_sincrona.v was successful.
+# Compile of ram_sincrona_TB.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ram_asincrona_TB
+# Loading work.ram_sincrona
+run
+# GetModuleFileName: No se puede encontrar el módulo especificado.
+# 
+# 
+run
+# Compile of ram_sincrona.v was successful.
+# Compile of ram_sincrona_TB.v failed with 1 errors.
+# 2 compiles, 1 failed with 1 error.
+# Compile of ram_sincrona.v was successful.
+# Compile of ram_sincrona_TB.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ram_asincrona_TB
+# Loading work.ram_sincrona
+run
+# GetModuleFileName: No se puede encontrar el módulo especificado.
+# 
+# 
+run
+# Compile of ram_sincrona.v was successful.
+# Compile of ram_sincrona_TB.v failed with 1 errors.
+# 2 compiles, 1 failed with 1 error.
+# Compile of ram_sincrona.v was successful.
+# Compile of ram_sincrona_TB.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ram_asincrona_TB
+# Loading work.ram_sincrona
+run
+# GetModuleFileName: No se puede encontrar el módulo especificado.
+# 
+# 
+run
+# Compile of ram_sincrona.v was successful.
+# Compile of ram_sincrona_TB.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ram_asincrona_TB
+# Loading work.ram_sincrona
+run
+# GetModuleFileName: No se puede encontrar el módulo especificado.
+# 
+# 
+run
+run
+# Compile of ram_sincrona.v was successful.
+# Compile of ram_sincrona_TB.v failed with 1 errors.
+# 2 compiles, 1 failed with 1 error.
+# Compile of ram_sincrona.v was successful.
+# Compile of ram_sincrona_TB.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ram_asincrona_TB
+# Loading work.ram_sincrona
+run
+# GetModuleFileName: No se puede encontrar el módulo especificado.
+# 
+# 
+# Compile of ram_sincrona.v was successful.
+# Compile of ram_sincrona_TB.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ram_asincrona_TB
+# Loading work.ram_sincrona
+run
+# GetModuleFileName: No se puede encontrar el módulo especificado.
+# 
+# 
+run
+run
+run
+run
+# Compile of ram_sincrona.v was successful.
+# Compile of ram_sincrona_TB.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ram_asincrona_TB
+# Loading work.ram_sincrona
+run
+# GetModuleFileName: No se puede encontrar el módulo especificado.
+# 
+# 
+run
+run
+run
+run
+# Compile of ram_sincrona.v was successful.
+# Compile of ram_sincrona_TB.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ram_asincrona_TB
+# Loading work.ram_sincrona
+run
+# GetModuleFileName: No se puede encontrar el módulo especificado.
+# 
+# 
+run
+run
+run
+run
+# Compile of ram_sincrona.v was successful.
+# Compile of ram_sincrona_TB.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ram_asincrona_TB
+# Loading work.ram_sincrona
+run
+# GetModuleFileName: No se puede encontrar el módulo especificado.
+# 
+# 
+run
+run
+run
+# Compile of ram_sincrona.v was successful.
+# Compile of ram_sincrona_TB.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ram_asincrona_TB
+# Loading work.ram_sincrona
+run
+# GetModuleFileName: No se puede encontrar el módulo especificado.
+# 
+# 
+run
+run
+run
+# Compile of ram_sincrona.v was successful.
+# Compile of ram_sincrona_TB.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.ram_asincrona_TB
+# Loading work.ram_sincrona
+run
+# GetModuleFileName: No se puede encontrar el módulo especificado.
+# 
+# 
+run
+run
+run
+run
+restart -f
+run
+# GetModuleFileName: No se puede encontrar el módulo especificado.
+# 
+# 
+run
+run
+run
+run
+run
+run
+# End time: 19:53:26 on Sep 21,2025, Elapsed time: 2:52:21
+# Errors: 0, Warnings: 1
