@@ -1,0 +1,470 @@
+# Compile of ALU.v was successful.
+# Compile of ALU.v was successful.
+# Compile of BR.v was successful with warnings.
+# 2 compiles, 0 failed with no errors.
+# Compile of ALU.v was successful.
+# Compile of BR.v was successful with warnings.
+# Compile of Burrito.v failed with 1 errors.
+# 3 compiles, 1 failed with 1 error.
+# Compile of ALU.v was successful.
+# Compile of BR.v was successful with warnings.
+# Compile of Burrito.v was successful.
+# 3 compiles, 0 failed with no errors.
+# Compile of ALU.v was successful.
+# Compile of BR.v was successful with warnings.
+# Compile of Burrito.v was successful.
+# Compile of Burrito_Tb.v failed with 1 errors.
+# 4 compiles, 1 failed with 1 error.
+# Compile of ALU.v was successful.
+# Compile of BR.v was successful with warnings.
+# Compile of Burrito.v was successful.
+# Compile of Burrito_Tb.v failed with 1 errors.
+# 4 compiles, 1 failed with 1 error.
+# Compile of Burrito_Tb.v failed with 1 errors.
+# Compile of ALU.v was successful.
+# Compile of BR.v was successful with warnings.
+# Compile of Burrito.v was successful.
+# Compile of Burrito_Tb.v failed with 1 errors.
+# 4 compiles, 1 failed with 1 error.
+# Compile of ALU.v was successful.
+# Compile of BR.v was successful with warnings.
+# Compile of Burrito.v was successful.
+# Compile of Burrito_Tb.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim work.Burrito_Tb
+# vsim work.Burrito_Tb 
+# Start time: 20:26:46 on Sep 29,2025
+# Loading work.Burrito_Tb
+# Loading work.Burrito
+# Loading work.ALU
+# ** Error (suppressible): (vsim-3009) [TSCALE] - Module 'Burrito_Tb' does not have a timeunit/timeprecision specification in effect, but other modules do.
+#    Time: 0 ps  Iteration: 0  Instance: /Burrito_Tb/DUV/tortilla File: C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Practica_05/ALU.v
+# Loading work.BR
+# Error loading design
+# End time: 20:26:46 on Sep 29,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 16
+# Compile of ALU.v was successful.
+# Compile of BR.v was successful with warnings.
+# Compile of Burrito.v was successful.
+# Compile of Burrito_Tb.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim work.Burrito_Tb
+# vsim work.Burrito_Tb 
+# Start time: 20:28:09 on Sep 29,2025
+# Loading work.Burrito_Tb
+# Loading work.Burrito
+# Loading work.ALU
+# Loading work.BR
+# ** Error: (vsim-3063) Port 'operacion' not found in the connected module (4th connection).
+#    Time: 0 ns  Iteration: 0  Instance: /Burrito_Tb/DUV File: C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Practica_05/Burrito_Tb.v Line: 12
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'RegWrite'. The port definition is at: C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Practica_05/BR.v(7).
+#    Time: 0 ns  Iteration: 0  Instance: /Burrito_Tb/DUV/Relleno File: C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Practica_05/Burrito.v Line: 18
+# Error loading design
+# End time: 20:28:09 on Sep 29,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 3
+# Compile of ALU.v was successful.
+# Compile of BR.v was successful with warnings.
+# Compile of Burrito.v was successful.
+# Compile of Burrito_Tb.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim work.Burrito_Tb
+# vsim work.Burrito_Tb 
+# Start time: 20:29:02 on Sep 29,2025
+# Loading work.Burrito_Tb
+# Loading work.Burrito
+# Loading work.ALU
+# ** Error (suppressible): (vsim-3009) [TSCALE] - Module 'Burrito_Tb' does not have a timeunit/timeprecision specification in effect, but other modules do.
+#    Time: 0 ps  Iteration: 0  Instance: /Burrito_Tb/DUV/tortilla File: C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Practica_05/ALU.v
+# Loading work.BR
+# Error loading design
+# End time: 20:29:03 on Sep 29,2025, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 2
+# Compile of ALU.v was successful.
+# Compile of BR.v was successful with warnings.
+# Compile of Burrito.v was successful.
+# Compile of Burrito_Tb.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim work.Burrito_Tb
+# vsim work.Burrito_Tb 
+# Start time: 20:30:19 on Sep 29,2025
+# Loading work.Burrito_Tb
+# Loading work.Burrito
+# Loading work.ALU
+# Loading work.BR
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'RegWrite'. The port definition is at: C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Practica_05/BR.v(7).
+#    Time: 0 ns  Iteration: 0  Instance: /Burrito_Tb/DUV/Relleno File: C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Practica_05/Burrito.v Line: 18
+quit -sim
+# End time: 20:30:31 on Sep 29,2025, Elapsed time: 0:00:12
+# Errors: 0, Warnings: 3
+# Compile of Burrito_Tb.v was successful.
+vsim work.Burrito_Tb
+# vsim work.Burrito_Tb 
+# Start time: 20:30:53 on Sep 29,2025
+# Loading work.Burrito_Tb
+# Loading work.Burrito
+# Loading work.ALU
+# ** Error (suppressible): (vsim-3009) [TSCALE] - Module 'Burrito_Tb' does not have a timeunit/timeprecision specification in effect, but other modules do.
+#    Time: 0 ps  Iteration: 0  Instance: /Burrito_Tb/DUV/tortilla File: C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Practica_05/ALU.v
+# Loading work.BR
+# Error loading design
+# End time: 20:30:53 on Sep 29,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 2
+# Compile of Burrito_Tb.v was successful.
+vsim work.Burrito_Tb
+# vsim work.Burrito_Tb 
+# Start time: 20:31:11 on Sep 29,2025
+# Loading work.Burrito_Tb
+# Loading work.Burrito
+# Loading work.ALU
+# ** Error (suppressible): (vsim-3009) [TSCALE] - Module 'Burrito_Tb' does not have a timeunit/timeprecision specification in effect, but other modules do.
+#    Time: 0 ps  Iteration: 0  Instance: /Burrito_Tb/DUV/tortilla File: C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Practica_05/ALU.v
+# Loading work.BR
+# Error loading design
+# End time: 20:31:12 on Sep 29,2025, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 2
+# Compile of ALU.v was successful.
+# Compile of BR.v was successful with warnings.
+# Compile of Burrito.v was successful.
+# Compile of Burrito_Tb.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim work.Burrito_Tb
+# vsim work.Burrito_Tb 
+# Start time: 20:32:46 on Sep 29,2025
+# Loading work.Burrito_Tb
+# Loading work.Burrito
+# Loading work.ALU
+# Loading work.BR
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'RegWrite'. The port definition is at: C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Practica_05/BR.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /Burrito_Tb/DUV/Relleno File: C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Practica_05/Burrito.v Line: 18
+add wave -position end  sim:/Burrito_Tb/instruccion
+add wave -position end  sim:/Burrito_Tb/instrucciones
+run
+run -all
+# ** Note: $stop    : C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Practica_05/Burrito_Tb.v(24)
+#    Time: 100 ps  Iteration: 0  Instance: /Burrito_Tb
+# Break in Module Burrito_Tb at C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Practica_05/Burrito_Tb.v line 24
+run
+run
+run -all
+run -all
+quit -sim
+# End time: 20:35:28 on Sep 29,2025, Elapsed time: 0:02:42
+# Errors: 0, Warnings: 3
+vsim work.Burrito
+# vsim work.Burrito 
+# Start time: 20:35:29 on Sep 29,2025
+# Loading work.Burrito
+# Loading work.ALU
+# Loading work.BR
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'RegWrite'. The port definition is at: C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Practica_05/BR.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /Burrito/Relleno File: C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Practica_05/Burrito.v Line: 18
+add wave -position end  sim:/Burrito/Dir1
+add wave -position end  sim:/Burrito/Dir2
+add wave -position end  sim:/Burrito/DirEscritura
+add wave -position end  sim:/Burrito/selector_operacion
+run
+add wave -position end  sim:/Burrito/C3
+force -freeze sim:/Burrito/Dir1 0 0
+force -freeze sim:/Burrito/Dir2 10 0
+force -freeze sim:/Burrito/DirEscritura 1010 0
+force -freeze sim:/Burrito/selector_operacion 0 0
+run
+force -freeze sim:/Burrito/selector_operacion 1000 0
+force -freeze sim:/Burrito/DirEscritura 10100 0
+run
+# Compile of ALU.v was successful.
+# Compile of BR.v was successful with warnings.
+# Compile of Burrito.v was successful.
+# Compile of Burrito_Tb.v was successful.
+# 4 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Burrito
+# Loading work.ALU
+# Loading work.BR
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'RegWrite'. The port definition is at: C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Practica_05/BR.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /Burrito/Relleno File: C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Practica_05/Burrito.v Line: 18
+vsim work.Burrito_Tb
+# End time: 20:43:53 on Sep 29,2025, Elapsed time: 0:08:24
+# Errors: 0, Warnings: 2
+# vsim work.Burrito_Tb 
+# Start time: 20:43:53 on Sep 29,2025
+# Loading work.Burrito_Tb
+# Loading work.Burrito
+# Loading work.ALU
+# Loading work.BR
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'RegWrite'. The port definition is at: C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Practica_05/BR.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /Burrito_Tb/DUV/Relleno File: C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Practica_05/Burrito.v Line: 18
+add wave -position end  sim:/Burrito_Tb/instruccion
+add wave -position end  sim:/Burrito_Tb/instrucciones
+run
+# ** Note: $stop    : C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Practica_05/Burrito_Tb.v(24)
+#    Time: 100 ps  Iteration: 0  Instance: /Burrito_Tb
+# Break in Module Burrito_Tb at C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Practica_05/Burrito_Tb.v line 24
+run
+# Compile of ALU.v was successful.
+# Compile of BR.v was successful with warnings.
+# Compile of Burrito.v was successful.
+# Compile of Burrito_Tb.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim work.Burrito_Tb
+# End time: 20:45:46 on Sep 29,2025, Elapsed time: 0:01:53
+# Errors: 0, Warnings: 3
+# vsim work.Burrito_Tb 
+# Start time: 20:45:46 on Sep 29,2025
+# Loading work.Burrito_Tb
+# Loading work.Burrito
+# Loading work.ALU
+# Loading work.BR
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'RegWrite'. The port definition is at: C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Practica_05/BR.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /Burrito_Tb/DUV/Relleno File: C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Practica_05/Burrito.v Line: 18
+add wave -position end  sim:/Burrito_Tb/instruccion
+add wave -position end  sim:/Burrito_Tb/instrucciones
+run
+# ** Note: $stop    : C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Practica_05/Burrito_Tb.v(23)
+#    Time: 100 ps  Iteration: 0  Instance: /Burrito_Tb
+# Break in Module Burrito_Tb at C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Practica_05/Burrito_Tb.v line 23
+run
+# Compile of ALU.v was successful.
+# Compile of BR.v was successful with warnings.
+# Compile of Burrito.v was successful.
+# Compile of Burrito_Tb.v was successful.
+# 4 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Burrito_Tb
+# Loading work.Burrito
+# Loading work.ALU
+# Loading work.BR
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'RegWrite'. The port definition is at: C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Practica_05/BR.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /Burrito_Tb/DUV/Relleno File: C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Practica_05/Burrito.v Line: 18
+run
+# GetModuleFileName: No se puede encontrar el módulo especificado.
+# 
+# 
+# ** Note: $stop    : C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Practica_05/Burrito_Tb.v(30)
+#    Time: 400 ps  Iteration: 0  Instance: /Burrito_Tb
+# Break in Module Burrito_Tb at C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Practica_05/Burrito_Tb.v line 30
+# Compile of ALU.v was successful.
+# Compile of BR.v was successful with warnings.
+# Compile of Burrito.v was successful.
+# Compile of Burrito_Tb.v was successful.
+# 4 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Burrito_Tb
+# Loading work.Burrito
+# Loading work.ALU
+# Loading work.BR
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'RegWrite'. The port definition is at: C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Practica_05/BR.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /Burrito_Tb/DUV/Relleno File: C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Practica_05/Burrito.v Line: 18
+run
+# GetModuleFileName: No se puede encontrar el módulo especificado.
+# 
+# 
+# ** Note: $stop    : C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Practica_05/Burrito_Tb.v(31)
+#    Time: 500 ps  Iteration: 0  Instance: /Burrito_Tb
+# Break in Module Burrito_Tb at C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Practica_05/Burrito_Tb.v line 31
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'RegWrite'. The port definition is at: C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Practica_05/BR.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /Burrito_Tb/DUV/Relleno File: C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Practica_05/Burrito.v Line: 18
+# Compile of Burrito_Tb.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Burrito_Tb
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'RegWrite'. The port definition is at: C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Practica_05/BR.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /Burrito_Tb/DUV/Relleno File: C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Practica_05/Burrito.v Line: 18
+# Break key hit
+run
+# GetModuleFileName: No se puede encontrar el módulo especificado.
+# 
+# 
+# ** Note: $stop    : C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Practica_05/Burrito_Tb.v(30)
+#    Time: 400 ps  Iteration: 0  Instance: /Burrito_Tb
+# Break in Module Burrito_Tb at C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Practica_05/Burrito_Tb.v line 30
+# Compile of Burrito_Tb.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Burrito_Tb
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'RegWrite'. The port definition is at: C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Practica_05/BR.v(7).
+#    Time: 0 ns  Iteration: 0  Instance: /Burrito_Tb/DUV/Relleno File: C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Practica_05/Burrito.v Line: 18
+run
+# GetModuleFileName: No se puede encontrar el módulo especificado.
+# 
+# 
+# Compile of Burrito_Tb.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Burrito_Tb
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'RegWrite'. The port definition is at: C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Practica_05/BR.v(7).
+#    Time: 0 ns  Iteration: 0  Instance: /Burrito_Tb/DUV/Relleno File: C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Practica_05/Burrito.v Line: 18
+run
+# GetModuleFileName: No se puede encontrar el módulo especificado.
+# 
+# 
+run
+run
+run
+run
+# ** Note: $stop    : C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Practica_05/Burrito_Tb.v(32)
+#    Time: 500 ns  Iteration: 0  Instance: /Burrito_Tb
+# Break in Module Burrito_Tb at C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Practica_05/Burrito_Tb.v line 32
+run
+run
+run
+run
+# Compile of ALU.v was successful.
+# Compile of BR.v was successful with warnings.
+# Compile of Burrito.v was successful.
+# Compile of Burrito_Tb.v was successful.
+# 4 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Burrito_Tb
+# Loading work.Burrito
+# Loading work.ALU
+# Loading work.BR
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'RegWrite'. The port definition is at: C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Practica_05/BR.v(7).
+#    Time: 0 ns  Iteration: 0  Instance: /Burrito_Tb/DUV/Relleno File: C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Practica_05/Burrito.v Line: 18
+run
+# GetModuleFileName: No se puede encontrar el módulo especificado.
+# 
+# 
+run
+run
+run
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'RegWrite'. The port definition is at: C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Practica_05/BR.v(7).
+#    Time: 0 ns  Iteration: 0  Instance: /Burrito_Tb/DUV/Relleno File: C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Practica_05/Burrito.v Line: 18
+run
+# GetModuleFileName: No se puede encontrar el módulo especificado.
+# 
+# 
+run
+run
+run
+run
+# ** Note: $stop    : C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Practica_05/Burrito_Tb.v(32)
+#    Time: 500 ns  Iteration: 0  Instance: /Burrito_Tb
+# Break in Module Burrito_Tb at C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Practica_05/Burrito_Tb.v line 32
+# Compile of Burrito_Tb.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Burrito_Tb
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'RegWrite'. The port definition is at: C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Practica_05/BR.v(7).
+#    Time: 0 ns  Iteration: 0  Instance: /Burrito_Tb/DUV/Relleno File: C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Practica_05/Burrito.v Line: 18
+run
+# GetModuleFileName: No se puede encontrar el módulo especificado.
+# 
+# 
+run
+run
+run
+run
+run
+run
+# Compile of ALU.v was successful.
+# Compile of BR.v was successful with warnings.
+# Compile of Burrito.v was successful.
+# Compile of Burrito_Tb.v was successful.
+# 4 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Burrito_Tb
+# Loading work.Burrito
+# Loading work.ALU
+# Loading work.BR
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'RegWrite'. The port definition is at: C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Practica_05/BR.v(7).
+#    Time: 0 ns  Iteration: 0  Instance: /Burrito_Tb/DUV/Relleno File: C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Practica_05/Burrito.v Line: 18
+run
+# GetModuleFileName: No se puede encontrar el módulo especificado.
+# 
+# 
+run
+run
+run
+run
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'RegWrite'. The port definition is at: C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Practica_05/BR.v(7).
+#    Time: 0 ns  Iteration: 0  Instance: /Burrito_Tb/DUV/Relleno File: C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Practica_05/Burrito.v Line: 18
+# Compile of ALU.v was successful.
+# Compile of BR.v was successful with warnings.
+# Compile of Burrito.v was successful.
+# Compile of Burrito_Tb.v was successful.
+# 4 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Burrito_Tb
+# Loading work.Burrito
+# Loading work.ALU
+# Loading work.BR
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'RegWrite'. The port definition is at: C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Practica_05/BR.v(7).
+#    Time: 0 ns  Iteration: 0  Instance: /Burrito_Tb/DUV/Relleno File: C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Practica_05/Burrito.v Line: 18
+run
+# GetModuleFileName: No se puede encontrar el módulo especificado.
+# 
+# 
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 6 of file "Instrucciones.txt". (Current address [5], address range [0:4])    : C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Practica_05/Burrito_Tb.v(9)
+#    Time: 0 ns  Iteration: 0  Instance: /Burrito_Tb
+run
+run
+run
+run
+# Break key hit
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'RegWrite'. The port definition is at: C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Practica_05/BR.v(7).
+#    Time: 0 ns  Iteration: 0  Instance: /Burrito_Tb/DUV/Relleno File: C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Practica_05/Burrito.v Line: 18
+run
+# GetModuleFileName: No se puede encontrar el módulo especificado.
+# 
+# 
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 6 of file "Instrucciones.txt". (Current address [5], address range [0:4])    : C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Practica_05/Burrito_Tb.v(9)
+#    Time: 0 ns  Iteration: 0  Instance: /Burrito_Tb
+run
+run
+run
+run
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'RegWrite'. The port definition is at: C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Practica_05/BR.v(7).
+#    Time: 0 ns  Iteration: 0  Instance: /Burrito_Tb/DUV/Relleno File: C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Practica_05/Burrito.v Line: 18
+run
+# GetModuleFileName: No se puede encontrar el módulo especificado.
+# 
+# 
+run
+run
+run
+run
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'RegWrite'. The port definition is at: C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Practica_05/BR.v(7).
+#    Time: 0 ns  Iteration: 0  Instance: /Burrito_Tb/DUV/Relleno File: C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Practica_05/Burrito.v Line: 18
+# Compile of ALU.v was successful.
+# Compile of BR.v was successful with warnings.
+# Compile of Burrito.v was successful.
+# Compile of Burrito_Tb.v was successful.
+# 4 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Burrito_Tb
+# Loading work.Burrito
+# Loading work.ALU
+# Loading work.BR
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'RegWrite'. The port definition is at: C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Practica_05/BR.v(7).
+#    Time: 0 ns  Iteration: 0  Instance: /Burrito_Tb/DUV/Relleno File: C:/Users/danie/Documents/Informatica 1/Arquitectura de compus/Trabajos Laboratorio/Practica_05/Burrito.v Line: 18
+run
+# GetModuleFileName: No se puede encontrar el módulo especificado.
+# 
+# 
+run
+run
+run
+run
+run
+# End time: 21:20:16 on Sep 29,2025, Elapsed time: 0:34:30
+# Errors: 0, Warnings: 2
